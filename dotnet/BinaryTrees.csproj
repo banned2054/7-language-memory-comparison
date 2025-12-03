@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Optimize>true</Optimize>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    
+    <PublishAot>true</PublishAot>          <!-- 开启 NativeAOT -->
+    <StripSymbols>true</StripSymbols>      <!-- 减小体积 -->
+  </PropertyGroup>
+</Project>

@@ -25,3 +25,6 @@ figures/
 .DS_Store
 
 cpp/binarytrees*
+dotnet/bin/
+dotnet/obj/
+.idea/
